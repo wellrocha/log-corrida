@@ -1,0 +1,23 @@
+{
+  "name": "log-corrida",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/**/*test.js"
+  },
+  "author": "Wellington Rocha",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "sinon": "^7.3.2"
+  },
+  "dependencies": {
+    "pino": "^5.13.1",
+    "pino-pretty": "^3.2.0"
+  }
+}
